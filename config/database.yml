@@ -14,11 +14,14 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
+# https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres
 default: &default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
+  username: Leonardo
+  password: password
   pool: 5
 
 development:

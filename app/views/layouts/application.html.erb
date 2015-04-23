@@ -3,12 +3,14 @@
 <head>
   <title>TestApp</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
